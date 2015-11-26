@@ -20,3 +20,5 @@ Active commands are commands you can use by typing "!command" at the bot on Skyp
 Look at the wait plugin for an example of how to write a plugin using both active and passive commands.
 
 Each plugin class is passed the values of skype (the Skype instance) when loaded, and chat (current chat) and message (current message) whenever the bot looks at an unread message. You can use these variables to interact with the Skype instance, the current chat, and the current message.
+
+Stick plugins into the plugins directory. Load plugins for the first time by saying !load to the bot on Skype.
